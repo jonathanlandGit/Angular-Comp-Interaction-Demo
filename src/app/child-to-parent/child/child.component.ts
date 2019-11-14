@@ -5,9 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './child.component.html',
   styleUrls: ['./child.component.scss']
 })
-export class ChildComponent implements OnInit {
+export class ChildComponent implements OnInit
+{
 
   message = 'This message is declared in child component and executed in parent component.';
+
   constructor() { }
 
   ngOnInit() {
