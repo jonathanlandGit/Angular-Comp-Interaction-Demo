@@ -1,0 +1,7 @@
+<h2>Child to Parent: Sharing data via @Output() and EventEmitter</h2>
+<div class="parent">
+
+  <h4>Parent Component</h4>
+  <p>Message: {{parentMessage}}</p>
+  <app-child (messageEvent)=receiveMessage($event) ></app-child>
+</div>
