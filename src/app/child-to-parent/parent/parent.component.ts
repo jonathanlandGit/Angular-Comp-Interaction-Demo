@@ -14,7 +14,7 @@ export class ParentComponent implements OnInit {
 
   constructor(private cdr: ChangeDetectorRef) { }
 
-  // 2 ways of modufying the value for the message variable above
+  // 2 ways of modufying the value for messahe variable
 
   ngOnInit() {
     // method 1

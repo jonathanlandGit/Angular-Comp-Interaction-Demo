@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ChildComponent } from './child-to-parent/child/child.component';
-import { ParentComponent } from './child-to-parent/parent/parent.component';
 import { HomeComponent } from './home/home.component';
 import { SiblingComponent } from './unrelated-comps/sibling/sibling.component';
 import { NavbarComponent } from './navbar/navbar.component';
